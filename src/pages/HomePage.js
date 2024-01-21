@@ -7,6 +7,7 @@ const HomePage = (props) => {
     return (
         <div>
             <h1>{props.content}</h1>
+            <h4>some content</h4>
         </div>
     );
 };
