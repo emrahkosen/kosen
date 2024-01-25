@@ -1,5 +1,4 @@
-import { Fragment } from "react";
-import { Route, Routes, createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
 import HomePage from "../pages/HomePage";
 import ResumePage from "../pages/ResumePage";
 
