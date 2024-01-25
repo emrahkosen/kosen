@@ -1,5 +1,5 @@
 import React from 'react';
-import Sidebar from './sidebar/Sidebar';
+import Sidebar from './components/sidebar/Sidebar';
 import MainRouters from './routers/MainRouter';
 import { RouterProvider } from 'react-router-dom';
 
