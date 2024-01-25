@@ -1,13 +1,14 @@
 import React from 'react';
 import Sidebar from './sidebar/Sidebar';
 import MainRouters from './routers/MainRouter';
+import { RouterProvider } from 'react-router-dom';
 
 function App() {
   return (
     <div className="app-container">
       <Sidebar />
       <div className="main-content">
-        <MainRouters />
+        <RouterProvider router={MainRouters}/>
       </div>
     </div>
   );
