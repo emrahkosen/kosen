@@ -2,7 +2,8 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Sidebar.css';
 
-const Sidebar = () => {
+const Sidebar = (props) => {
+  
   return (
     <div className="sidebar">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -19,32 +20,28 @@ const Sidebar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav flex-column">
-            <li className="nav-item">
+            {props.experiences.map(experience => <li className="nav-item">
               <a className="nav-link" href="/">
-                Home
+                {experience.name}
               </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/about">
-                About
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/resume">
-                Resume
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/task">
-                Task
-              </a>
-            </li>
-            {/* Add more menu items as needed */}
+            </li>)}
           </ul>
         </div>
       </nav>
     </div>
   );
 };
+
+
+// const experienceComponent = ({experience}) => {
+//   const [show, setShow] = useState(false);
+//   const handleClick = () => {
+//     setShow(true);
+//   }
+//   return <div>
+//     <h2 onClick={handleClick}>{experience.name}</h2>
+//     <StaticModal show = {show} title ={experience.name}/>
+//   </div>
+// };
 
 export default Sidebar;

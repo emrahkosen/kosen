@@ -7,9 +7,7 @@ function App() {
   return (
     <div className="app-container">
       <LeftNavbar />
-      <div className="main-content">
         <RouterProvider router={MainRouters}/>
-      </div>
     </div>
   );
 }

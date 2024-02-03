@@ -1,6 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
 import HomePage from "../pages/HomePage";
 import ResumePage from "../pages/ResumePage";
+import GamePage from "../pages/GamePage";
+import AboutPage from "../pages/AboutPage";
 
 const MainRouters = createBrowserRouter([
     {
@@ -17,7 +19,11 @@ const MainRouters = createBrowserRouter([
     },
     {
         path: "about",
-        element: <HomePage content = "About Page" />
+        element: <AboutPage />
+    },
+    {
+        path: "games",
+        element: <GamePage />
     },
 ]);
 
