@@ -1,0 +1,16 @@
+.cells-row {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+  }
+  
+  .cells-row:last-child {
+    margin-bottom: 0;
+  }
+
+.cells{
+  height: 100%;
+  width: 100%;
+}
