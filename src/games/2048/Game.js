@@ -240,5 +240,5 @@ class Game {
     }
   }
 }
-
-export default new Game();
+const gameInstance = new Game();
+export default gameInstance;
