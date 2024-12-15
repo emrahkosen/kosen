@@ -73,24 +73,18 @@ const HomePage = () => {
 
                 <h3>Professional Experience</h3>
                 <div className="experience-item">
+                    <h4>Havelsan A.S</h4>
+                    <p>Software Engineer</p>
+                    <p><strong>From:</strong> June 15, 2021 - Present</p>
+                    <p>Technologies: Advent Project - Java, MySQL, React, Spring Boot</p>
+                </div>
+
+
+                <div className="experience-item">
                     <h4>Matriks Bilgi Dağıtım Hizmetleri</h4>
                     <p>Software Engineer (Internship)</p>
                     <p><strong>From:</strong> June 11, 2019 - <strong>To:</strong> July 23, 2019</p>
                     <p>Developed web applications (JavaScript - NodeJs - Rest API Test - Promises - Async - Await)</p>
-                </div>
-
-                <div className="experience-item">
-                    <h4>Matriks Bilgi Dağıtım Hizmetleri</h4>
-                    <p>Software Engineer (Internship)</p>
-                    <p><strong>From:</strong> July 29, 2019 - <strong>To:</strong> September 17, 2019</p>
-                    <p>Networking (High Frequency Trading - C/C++ - Multithreading - Spinlock - Atomic - LockFree - Mutex - Semaphore)</p>
-                </div>
-
-                <div className="experience-item">
-                    <h4>Pia Bilgi Dağıtım Hizmetleri</h4>
-                    <p>Software Engineer</p>
-                    <p><strong>From:</strong> July 13, 2020 - <strong>To:</strong> February 19, 2021</p>
-                    <p>Technologies: Java Spring Boot - Camunda - MongoDB - Docker - Kubernetes - Jenkins - CI/CD, Microservices</p>
                 </div>
 
                 <div className="experience-item">
@@ -101,12 +95,24 @@ const HomePage = () => {
                 </div>
 
                 <div className="experience-item">
-                    <h4>Havelsan A.S</h4>
+                    <h4>Pia Bilgi Dağıtım Hizmetleri</h4>
                     <p>Software Engineer</p>
-                    <p><strong>From:</strong> June 15, 2021 - Present</p>
-                    <p>Technologies: Advent Project - Java, MySQL, React, Spring Boot</p>
+                    <p><strong>From:</strong> July 13, 2020 - <strong>To:</strong> February 19, 2021</p>
+                    <p>Technologies: Java Spring Boot - Camunda - MongoDB - Docker - Kubernetes - Jenkins - CI/CD, Microservices</p>
                 </div>
 
+                <div className="experience-item">
+                    <h4>Matriks Bilgi Dağıtım Hizmetleri</h4>
+                    <p>Software Engineer (Internship)</p>
+                    <p><strong>From:</strong> July 29, 2019 - <strong>To:</strong> September 17, 2019</p>
+                    <p>Networking (High Frequency Trading - C/C++ - Multithreading - Spinlock - Atomic - LockFree - Mutex - Semaphore)</p>
+                </div>
+
+
+
+  
+
+             
                 <h3>Achievements</h3>
                 <ul>
                     <li>The Top Student Of The High School</li>
