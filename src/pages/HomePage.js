@@ -80,12 +80,6 @@ const HomePage = () => {
                 </div>
 
 
-                <div className="experience-item">
-                    <h4>Matriks Bilgi Dağıtım Hizmetleri</h4>
-                    <p>Software Engineer (Internship)</p>
-                    <p><strong>From:</strong> June 11, 2019 - <strong>To:</strong> July 23, 2019</p>
-                    <p>Developed web applications (JavaScript - NodeJs - Rest API Test - Promises - Async - Await)</p>
-                </div>
 
                 <div className="experience-item">
                     <h4>Akbank T.A.S Dijital Bankacılık Ve Ödeme Sistemleri</h4>
@@ -108,8 +102,12 @@ const HomePage = () => {
                     <p>Networking (High Frequency Trading - C/C++ - Multithreading - Spinlock - Atomic - LockFree - Mutex - Semaphore)</p>
                 </div>
 
-
-
+                <div className="experience-item">
+                    <h4>Matriks Bilgi Dağıtım Hizmetleri</h4>
+                    <p>Software Engineer (Internship)</p>
+                    <p><strong>From:</strong> June 11, 2019 - <strong>To:</strong> July 23, 2019</p>
+                    <p>Developed web applications (JavaScript - NodeJs - Rest API Test - Promises - Async - Await)</p>
+                </div>
   
 
              
