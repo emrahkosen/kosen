@@ -24,9 +24,6 @@ import {
     Stack
 } from '@mui/material';
 import { 
-    Apartment, 
-    DirectionsCar, 
-    Info, 
     Mail, 
     CheckCircle, 
     Diamond, 
