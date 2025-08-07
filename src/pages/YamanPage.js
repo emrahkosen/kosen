@@ -14,7 +14,6 @@ import {
     Card, 
     CardMedia, 
     CardContent, 
-    TextField,
     IconButton,
     Drawer,
     List,
@@ -58,7 +57,7 @@ const theme = createTheme({
 
 const sectionStyles = {
     py: { xs: 6, md: 10 },
-    pt: { xs: 6, md: 10 },
+    pt: { xs: 8, md: 12 },
 };
 
 // --- BİLEŞENLER ---
@@ -352,7 +351,7 @@ const ProjectsPage = () => {
 // Hakkımızda Sayfası Bileşeni
 const AboutPage = () => (
     <Box sx={{ ...sectionStyles, bgcolor: 'background.paper' }}>
-        <Container maxWidth="md">
+        <Container maxWidth="md" >
             <Typography variant="h2" align="center" gutterBottom>Hakkımızda</Typography>
             <Typography variant="h6" align="center" color="text.secondary" sx={{ mb: 4 }}>Yılların tecrübesiyle, güven inşa ediyoruz.</Typography>
             <Typography variant="body1" color="text.secondary" sx={{ mb: 4, textAlign: 'justify' }}>
@@ -382,15 +381,7 @@ const ContactPage = () => (
         <Typography variant="h2" align="center" gutterBottom>Bize Ulaşın</Typography>
         <Typography variant="h6" align="center" color="text.secondary" sx={{ mb: 6 }}>Soru, görüş ve projeleriniz için bizimle iletişime geçebilirsiniz.</Typography>
         <Card sx={{ p: { xs: 2, md: 4 } }}>
-            <Grid container spacing={4}>
-                <Grid item xs={12} md={6}>
-                    <Stack component="form" spacing={2}>
-                        <TextField label="Adınız Soyadınız" variant="outlined" fullWidth />
-                        <TextField label="E-posta Adresiniz" variant="outlined" fullWidth />
-                        <TextField label="Mesajınız" variant="outlined" fullWidth multiline rows={4} />
-                        <Button variant="contained" size="large">Mesajı Gönder</Button>
-                    </Stack>
-                </Grid>
+            <Grid container spacing={2}>
                 <Grid item xs={12} md={6}>
                     <Stack spacing={2}>
                         <Typography variant="h5">İletişim Bilgilerimiz</Typography>
@@ -400,7 +391,7 @@ const ContactPage = () => (
                         <Box sx={{ height: 250, width: '100%', mt: 2, borderRadius: 1, overflow: 'hidden' }}>
                         <iframe
                             title="Google Maps - Ataşehir, İstanbul"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.005888806584!2d29.1234567154101!3d40.9969444793019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac8d9b9a7b7e5%3A0x8a9c4a8d4d4d4b3!2sAta%C5%9Fehir%2C%20%C4%B0stanbul!5e0!3m2!1str!2str!4v1678886543210!5m2!1str!2str"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6021.703922353011!2d29.223555637083408!3d41.0066133005022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2str!4v1754592324582!5m2!1str!2str"
                             width="100%"
                             height="100%"
                             style={{ border: 0 }}
@@ -438,10 +429,10 @@ const Footer = ({ handleNavigation }) => (
                 <Grid item xs={12} sm={6} md={4} sx={{ textAlign: { xs: 'center', sm: 'left' } }}>
                     <Typography variant="h6" gutterBottom>Sosyal Medya</Typography>
                     <Stack direction="row" spacing={1} justifyContent={{ xs: 'center', sm: 'flex-start' }}>
-                        <IconButton href="#" color="inherit"><Facebook /></IconButton>
-                        <IconButton href="#" color="inherit"><Twitter /></IconButton>
-                        <IconButton href="#" color="inherit"><Instagram /></IconButton>
-                        <IconButton href="#" color="inherit"><LinkedIn /></IconButton>
+                        <IconButton href="https://www.facebook.com/yusuf.ad.yaman.863754" color="inherit"><Facebook /></IconButton>
+                        <IconButton href="https://www.facebook.com/yusuf.ad.yaman.863754" color="inherit"><Twitter /></IconButton>
+                        <IconButton href="https://www.facebook.com/yusuf.ad.yaman.863754" color="inherit"><Instagram /></IconButton>
+                        <IconButton href="https://www.facebook.com/yusuf.ad.yaman.863754" color="inherit"><LinkedIn /></IconButton>
                     </Stack>
                 </Grid>
             </Grid>
