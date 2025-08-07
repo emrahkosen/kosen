@@ -397,7 +397,17 @@ const ContactPage = () => (
                         <Typography sx={{ display: 'flex', alignItems: 'center' }}><Phone sx={{ mr: 1, color: 'primary.main' }} /> +90 216 123 45 67</Typography>
                         <Typography sx={{ display: 'flex', alignItems: 'center' }}><Mail sx={{ mr: 1, color: 'primary.main' }} /> info@yamangrup.com.tr</Typography>
                         <Box sx={{ height: 250, width: '100%', mt: 2, borderRadius: 1, overflow: 'hidden' }}>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.005888806584!2d29.1234567154101!3d40.9969444793019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac8d9b9a7b7e5%3A0x8a9c4a8d4d4d4b3!2sAta%C5%9Fehir%2C%20%C4%B0stanbul!5e0!3m2!1str!2str!4v1678886543210!5m2!1str!2str" width="100%" height="100%" style={{ border:0 }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe
+                            title="Google Maps - Ataşehir, İstanbul"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.005888806584!2d29.1234567154101!3d40.9969444793019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac8d9b9a7b7e5%3A0x8a9c4a8d4d4d4b3!2sAta%C5%9Fehir%2C%20%C4%B0stanbul!5e0!3m2!1str!2str!4v1678886543210!5m2!1str!2str"
+                            width="100%"
+                            height="100%"
+                            style={{ border: 0 }}
+                            allowFullScreen=""
+                            loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade"
+                        />
+    
                         </Box>
                     </Stack>
                 </Grid>
