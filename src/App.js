@@ -1,8 +1,6 @@
 import React from 'react';
-// import MainRouters from './routers/MainRouter';
 import { Outlet, } from 'react-router-dom';
 import LeftNavbar from './components/navber/Navbar';
-// import YamanPage from './pages/YamanPage';
 
 function App() {
   return (
