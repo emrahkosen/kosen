@@ -1,0 +1,23 @@
+html, body {  
+    height: 100%;  
+    margin: 0;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;    
+    font-family: 'Roboto', sans-serif; /* Modern font */  
+}  
+
+.login-container {  
+    width: 100%;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+}  
+
+.p-inputtext {  
+    width: 100%; /* Make input take full width */  
+}  
+
+.p-button {  
+    margin-top: 10px; /* Space above button */  
+}
