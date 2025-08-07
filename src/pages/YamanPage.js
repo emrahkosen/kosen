@@ -58,6 +58,7 @@ const theme = createTheme({
 
 const sectionStyles = {
     py: { xs: 6, md: 10 },
+    pt: { xs: 6, md: 10 },
 };
 
 // --- BİLEŞENLER ---
