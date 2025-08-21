@@ -55,8 +55,8 @@ function LeftNavbar() {
                     Candy Crush
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action5">
-                    Another Game
+                  <NavDropdown.Item href="games/rush">
+                    ReflexRush
                   </NavDropdown.Item>
                 </NavDropdown> 
               </Nav>

@@ -56,6 +56,7 @@ import NotFoundPage from '../pages/NotFoundPage';
 import Game2048 from "../games/2048/Game2048";
 import CandyCrush from "../games/CandyCruch";
 import GameHomePage from "../games/2048/GameHomePage";
+import ReflexRush from "../games/ReflexRush";
 
 
 
@@ -83,12 +84,8 @@ export const MainRouters = createBrowserRouter([
             element: <AboutPage />
         },
         {
-            path: "games",
-            element: <GamePage />
-        },
-        {
           path: "games",
-          element: <GamePage />, // This component will act as a layout for game routes.
+          element: <GamePage />,
           children: [
             {
               // This index route will render when the user navigates to "/games"
@@ -103,6 +100,10 @@ export const MainRouters = createBrowserRouter([
             {
               path: 'candy', 
               element: <CandyCrush /> 
+            },
+            {
+              path: 'rush', 
+              element: <ReflexRush /> 
             }
           ]
         },
