@@ -53,20 +53,21 @@ import YamanPage from "../pages/YamanPage";
 import { createBrowserRouter, Navigate } from 'react-router-dom';
 import App from '../App';
 import NotFoundPage from '../pages/NotFoundPage';
+import Game2048 from "../games/2048/Game2048";
+import CandyCrush from "../games/CandyCruch";
+import GameHomePage from "../games/2048/GameHomePage";
 
 
 
 export const MainRouters = createBrowserRouter([
     
     {
-        // 1. Ana Düzen (Layout) ile olan sayfalar
-        // Bu path altındaki tüm yollar MainLayout bileşenini kullanacak
         path: '/',
         element: <App />,
-        errorElement: <NotFoundPage />, // Bu grup için hata sayfası
+        errorElement: <NotFoundPage />, 
         children: [
           {
-            index: true, // path: '/' ile eşleştiğinde bu render edilir
+            index: true, // path: '/'
             element: <HomePage />,
           },
         {
@@ -84,6 +85,26 @@ export const MainRouters = createBrowserRouter([
         {
             path: "games",
             element: <GamePage />
+        },
+        {
+          path: "games",
+          element: <GamePage />, // This component will act as a layout for game routes.
+          children: [
+            {
+              // This index route will render when the user navigates to "/games"
+              index: true,
+              // You can replace this with a component that lists all games.
+              element: <GameHomePage />
+            },
+            {
+              path: '2048', 
+              element: <Game2048 /> 
+            },
+            {
+              path: 'candy', 
+              element: <CandyCrush /> 
+            }
+          ]
         },
         ],
       },

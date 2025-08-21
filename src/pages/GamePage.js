@@ -1,4 +1,4 @@
-import Game2048 from "../games/2048/Game2048";
+import { Outlet } from "react-router-dom";
 
 const GamePage = () => {
     return <div style={{
@@ -8,7 +8,7 @@ const GamePage = () => {
         width: '100%',
         height: '100vh'
       }}>
-       <Game2048 />
+       <Outlet />
     </div>
 };
 

@@ -7,7 +7,6 @@ function App() {
     <div className="app-container">
       <LeftNavbar />
       <Outlet />
-        {/* <RouterProvider router={MainRouters}/>  */}
     </div>
   );
 }

@@ -46,17 +46,17 @@ function LeftNavbar() {
                 <Nav.Link href="about">About Me</Nav.Link>
                 <Nav.Link href="resume">Resume</Nav.Link>
                  <NavDropdown
-                  title="Dropdown"
+                  title="Games"
                   id={`offcanvasNavbarDropdown-expand-${typeNavbar}`}
                   style={{ width: '200px' }}
                 >
-                  <NavDropdown.Item href="games">Games</NavDropdown.Item>
-                  <NavDropdown.Item href="#action4">
-                    Another action
+                  <NavDropdown.Item href="games/2048">2048</NavDropdown.Item>
+                  <NavDropdown.Item href="games/candy">
+                    Candy Crush
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item href="#action5">
-                    Something else here
+                    Another Game
                   </NavDropdown.Item>
                 </NavDropdown> 
               </Nav>
